@@ -63,7 +63,21 @@ const translations = {
   'Swipe or use arrow keys to explore drawings': '滑动或使用左右方向键查看图纸',
   'Social Housing: section detail, elevation and plan': '社会住宅：剖面细部、立面与平面图',
   'Precampel Community Hub: concept map': 'Precampel 社区中心：概念规划图',
-  'Precampel Community Hub: four urban design goal maps': 'Precampel 社区中心：四项城市设计目标图'
+  'Precampel Community Hub: four urban design goal maps': 'Precampel 社区中心：四项城市设计目标图',
+  "Professional skills": "专业能力",
+  "My skills connect architectural design with engineering analysis and research, developed through coursework, collaborative projects and practice in Italy and China.": "通过课程、团队项目及在意大利和中国的实践，将建筑设计、工程分析与研究方法联系起来。",
+  "Architectural design & critical analysis": "建筑设计与批判性分析",
+  "I develop architectural and urban design proposals through site analysis, typological studies and historical references, connecting spatial organisation, public life and architectural expression.": "通过场地分析、建筑类型学研究与历史案例研读开展建筑和城市设计，将空间组织、公共生活与建筑表达联系起来。",
+  "Conservation & adaptive reuse": "遗产保护与适应性再利用",
+  "My coursework and renovation projects explore existing buildings, heritage values and conservation strategies, relating sensitive interventions to new uses and the wider urban context.": "在保护课程与更新项目中研究既有建筑、遗产价值和保护策略，将审慎的改造措施与新的使用需求及城市环境相结合。",
+  "Structural analysis & preliminary design": "结构分析与初步设计",
+  "My academic work covers structural mechanics and statically indeterminate systems, together with preliminary design and verification of reinforced concrete and steel members. I explain assumptions, calculation methods and the limits of the analysis.": "课程项目涵盖建筑力学、超静定结构分析，以及钢筋混凝土和钢构件的初步设计与验算，并清晰说明计算假设、方法和分析范围。",
+  "Building performance & life cycle assessment": "建筑性能与生命周期评价",
+  "I explore building energy modelling, applied building physics and envelope engineering, and use life cycle assessment to compare material and renovation options. In the Casa Francesco project, environmental assessment connects with urban design and adaptive reuse.": "研究建筑能源模拟、应用建筑物理与围护系统工程，并通过生命周期评价比较材料和更新方案。在 Casa Francesco 项目中，将环境评价与城市设计及适应性再利用相联系。",
+  "Parametric design & interdisciplinary research": "参数化设计与跨学科研究",
+  "I use Rhino and Grasshopper to explore parameter-driven design alternatives. My ongoing MSc thesis investigates reversible CLT glamping units, connecting design development with energy strategies, assembly logistics and life cycle assessment.": "使用 Rhino 与 Grasshopper 探索参数驱动的设计方案。进行中的硕士论文研究可逆装配的 CLT 度假小屋，将设计深化与能源策略、装配物流和生命周期评价结合。",
+  "Project evaluation & technical communication": "项目评价与技术表达",
+  "My project management and building evaluation coursework supports structured project assessment. I communicate design and analytical work through coordinated drawings, diagrams, technical reports and evidence-based presentations, with clear sources and team contributions.": "项目管理与建筑评价课程支持有条理的项目评估。通过相互协调的图纸、分析图、技术报告与有依据的演示表达设计和分析成果，明确注明资料来源及团队贡献。"
 };
 let language = 'en';
 const textNodes = [];
