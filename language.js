@@ -1,4 +1,5 @@
 const translations = {
+  "View web report →": "查看网页版报告 →",
   "ACADEMIC COURSEWORK": "学术作业",
   "Academic work": "学术作业",
   "A visual archive of design, conservation, environmental and engineering coursework developed at Politecnico di Milano.": "以图片形式整理在米兰理工大学完成的设计、保护、环境与工程类课程作业。",
