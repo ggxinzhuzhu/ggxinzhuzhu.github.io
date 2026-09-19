@@ -48,13 +48,15 @@ const reports = {
   },
   "building-energy-modelling": {
     category:["Energy modelling · 2022/23","建筑能耗模拟 · 2022/23"],title:["Building Energy Modelling & Design","建筑能耗模拟与设计"],
-    intro:["A building-performance workflow for a case in Skopje, linking climate analysis, envelope design, dynamic simulation, thermal bridges and operational optimisation.","以斯科普里项目为案例的建筑性能工作流，连接气候分析、围护结构设计、动态模拟、热桥与运行优化。"],
-    facts:[["Course","Building Energy Modelling and Design"],["Year","2022/23"],["Location","Skopje, North Macedonia"],["Team","Xiaoxiong Xie · Hanieh Abbasi · Kiana Hosseini · Xinzhu Gao"],["Tutors","E. De Angelis · J.D. Blanco Cadena"]],
+    intro:["A complete building-performance workflow for a case in Skopje, linking climate analysis, envelope optimisation, dynamic simulation, user-centred refinement, thermal bridges and detailed operation.","以斯科普里项目为案例的完整建筑性能工作流，连接气候分析、围护优化、动态模拟、使用者导向深化、热桥与详细运行优化。"],
+    facts:[["Course","Building Energy Modelling and Design"],["Year","2022/23"],["Location","Skopje, North Macedonia"],["Tutors","E. De Angelis · J.D. Blanco Cadena"]],
     sections:[
-      {title:["Climate and envelope","气候与围护结构"],text:["Weather data, solar exposure and envelope assemblies establish the input model. Facade and roof choices are checked against local conditions before detailed simulation.","通过气象数据、太阳辐射与围护构造建立输入模型，并在详细模拟前根据当地条件校核立面与屋面方案。"],images:[1,2]},
-      {title:["Dynamic simulation","动态模拟"],text:["The model records zone loads and compares performance across periods and operating schedules. Results are used to locate high-demand conditions and guide design adjustments.","模型记录分区负荷，并比较不同时段与运行计划下的性能，用于定位高能耗工况并指导设计调整。"],images:[3]},
-      {title:["Thermal bridges and operation","热桥与运行优化"],text:["Construction junctions and operational assumptions are refined together. The workflow connects local heat-flow checks with the annual energy picture.","构造节点与运行假设同步深化，将局部热流校核与全年能耗结果联系起来。"],images:[4]}
-    ],credit:["Academic team project. Selected modelling inputs and results are shown.","学术团队项目。本页展示部分模拟输入与结果。"]
+      {title:["Report map and climate analysis","报告目录与气候分析"],text:["The web edition begins with the report index and then documents temperature, humidity, solar irradiation, wind and adaptive comfort for Skopje.","网页版从报告目录开始，随后展示斯科普里的温度、湿度、太阳辐射、风环境与适应性舒适度分析。"],images:[2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},
+      {title:["Steady-state balance and envelope optimisation","稳态平衡与围护结构优化"],text:["Geometry, transmission and ventilation losses, thermal bridges and envelope alternatives are compared through steady-state calculations.","通过稳态计算比较建筑几何、传热与通风损失、热桥及不同围护结构方案。"],images:[17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]},
+      {title:["Dynamic modelling","动态模拟"],text:["The dynamic model tests free-running indoor conditions, schedules, air change, internal gains, U-values and iterative design adjustments.","动态模型检验自由运行室内环境、使用计划、换气、内部得热、U 值及多轮设计调整。"],images:[33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]},
+      {title:["User-centred optimisation","使用者导向优化"],text:["Internal gains, window and glazing choices, multi-zone behaviour and seasonal performance are refined through successive simulations.","通过连续模拟深化内部得热、窗与玻璃选择、多热区行为及季节性能。"],images:[51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77]},
+      {title:["Detailed operation and thermal bridges","详细运行与热桥"],text:["The final stage develops ground contact, clustering, THERM junction analysis, controls and detailed building-operation scenarios.","最终阶段深化地面接触、聚类、THERM 节点分析、控制策略与详细建筑运行情景。"],images:[78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115]}
+    ],credit:["The original group-information cover page is omitted. This web edition presents report pages 2–116.","原 PDF 的小组信息封面已去除；本网页版展示报告第 2–116 页。"]
   },
   "applied-building-physics": {
     category:["Building physics · 2023/24","建筑物理 · 2023/24"],title:["Applied Building Physics","应用建筑物理"],
