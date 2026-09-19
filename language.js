@@ -1,4 +1,13 @@
 const translations = {
+  "ACADEMIC COURSEWORK": "学术作业",
+  "Academic work": "学术作业",
+  "A visual archive of design, conservation, environmental and engineering coursework developed at Politecnico di Milano.": "以图片形式整理在米兰理工大学完成的设计、保护、环境与工程类课程作业。",
+  "Facade Survey & Decay Analysis": "立面测绘与病害分析",
+  "Geometric survey, material recognition and decay mapping for an existing facade in Isolago.": "对 Isolago 既有建筑立面开展几何测绘、材料识别与病害图绘制。",
+  "Historic Masonry: Non-destructive Testing": "历史砌体无损检测",
+  "Thermographic and sonic investigations used to interpret construction features and discontinuities in historic masonry.": "运用热成像与声波检测分析历史砌体的构造特征及内部不连续性。",
+  "Renovation Scenarios & Dynamic LCA": "更新方案与动态生命周期评价",
+
   "EXTENDED WORK": "拓展作品",
   "Academic studies & technical reports": "课程研究与技术报告",
   "A structured selection of design, conservation, environmental and engineering coursework. PDF downloads are password-protected.": "按设计、保护、环境与工程方向整理的课程作品。PDF 下载文件均设有密码保护。",
