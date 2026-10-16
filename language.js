@@ -86,7 +86,7 @@ const translations = {
   'ARCHITECTURE · RENEWAL · BUILDING ENGINEERING': '建筑设计 · 城市更新 · 建筑工程',
   'Architecture that connects': '让建筑连接', 'people, place and performance.': '人与场所，兼顾建筑性能。',
   'Based in Lecco, Italy': '现居意大利莱科', 'Politecnico di Milano': '米兰理工大学',
-  'View selected work ↓': '查看精选作品 ↓', '01 / PORTFOLIO': '01 / 作品集',
+  'View selected work ↓': '查看精选作品 ↓', 'View selected work →': '查看精选作品 →', 'Skip to content': '跳到主要内容', 'Pause slideshow': '暂停轮播', '01 / PORTFOLIO': '01 / 作品集',
   'Selected work': '精选作品', 'Full portfolio PDF ↗': '完整作品集 PDF ↗',
   'SOCIAL HOUSING · SECTION & ELEVATION': '社会住宅 · 剖面与立面',
   'PRECAMPEL · CONCEPT MAP': 'PRECAMPEL · 概念规划图',
@@ -166,6 +166,20 @@ const translations = {
   "My project management and building evaluation coursework supports structured project assessment. I communicate design and analytical work through coordinated drawings, diagrams, technical reports and evidence-based presentations, with clear sources and team contributions.": "项目管理与建筑评价课程支持有条理的项目评估。通过相互协调的图纸、分析图、技术报告与有依据的演示表达设计和分析成果，明确注明资料来源及团队贡献。",
   "Contributed to the design of an amusement park project in Benghazi, Libya, using AI for early-stage design exploration and concept renderings.": "参与利比亚班加西游乐园项目设计，利用 AI 开展前期设计与意向渲染。"
 };
+const originalTitle = document.title;
+const descriptionMeta = document.querySelector('meta[name="description"]');
+const originalDescription = descriptionMeta ? descriptionMeta.content : '';
+const pageTitlesZh = {
+  'Xinzhu Gao | Architecture & Building Design': '高芯竹 | 建筑设计与作品集',
+  'Selected & Academic Work | Xinzhu Gao': '精选作品与学术作业 | 高芯竹',
+  'Experience | Xinzhu Gao': '经历 | 高芯竹',
+  'About & CV | Xinzhu Gao': '关于与简历 | 高芯竹',
+  'Professional Skills | Xinzhu Gao': '专业技能 | 高芯竹',
+  'Contact | Xinzhu Gao': '联系方式 | 高芯竹'
+};
+const pageDescriptionsZh = {
+  "Xinzhu Gao's architecture portfolio: urban renewal, adaptive reuse and sustainable building design. Based in Lecco, Italy.": '高芯竹的建筑作品集：城市更新、适应性再利用与可持续建筑设计。现居意大利莱科。'
+};
 let language = 'en';
 const textNodes = [];
 const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
@@ -207,8 +221,8 @@ function setLanguage(next) {
     element.textContent = language === 'zh' ? '595282457@qq.com ↗' : text;
   });
   document.querySelectorAll('[data-language]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
-  document.title = language === 'zh' ? '高芯竹 | 建筑设计与作品集' : 'Xinzhu Gao | Architecture & Building Design';
-  document.querySelector('meta[name="description"]').content = language === 'zh' ? '高芯竹的建筑作品集：城市更新、适应性再利用与可持续建筑设计。现居意大利莱科。' : "Xinzhu Gao's architecture portfolio: urban renewal, adaptive reuse and sustainable building design. Based in Lecco, Italy.";
+  document.title = language === 'zh' ? (pageTitlesZh[originalTitle] || originalTitle) : originalTitle;
+  if (descriptionMeta) descriptionMeta.content = language === 'zh' ? (pageDescriptionsZh[originalDescription] || originalDescription) : originalDescription;
   document.dispatchEvent(new Event('site-language-change'));
   try { localStorage.setItem('site-language', language); } catch {}
 }
